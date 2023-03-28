@@ -1,0 +1,460 @@
+.side {
+  display: grid;
+  grid-template-columns: 1fr;
+  }
+header {
+    width: 100%;
+  }
+   
+  body,h1,h2,h3,h4,h5,h6,div,p,ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  img{
+    vertical-align: top;
+  }
+  
+  header  {    
+    max-width: 100%;
+      color: #fff;
+      background-color: rgb(21, 32, 32);
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 20px;
+  }
+  
+  header a {
+      margin-left: 20%;
+      margin: 20px;
+      width: 50%;
+  }
+.ダウンロードする {
+    left: 60%;
+    max-width: 20px;
+    max-height: 10px;
+  }
+  
+  .logo {
+    padding-left: 1%;
+    max-width: 100px;
+    max-height: 100px;
+  }
+  
+  .header2 .headerimg1 {
+    height: 650px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+    max-width: 100%;
+    background-color: #131313;
+  }
+  
+  p .header2 {
+    padding-top: -20%;
+  }
+  
+  .koushiki {
+    right: 30%;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    font-size:30px;
+    color: #fff;
+    padding:0;
+    margin:0;
+    font-family: 'Noto Serif JP', serif;
+  }
+  
+  .header3 {
+    max-height: 50%;
+    background-color: #fff;
+  }
+  .header3 h1 {
+    padding-top: 2%;
+    padding-left: 45%;
+    color: black;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  
+  p {
+    font-size: 20px;
+    padding-top: 1%;
+    padding-left: 5%;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  
+  
+  body {
+    font-family:'Noto Sans JP',sans-serif;
+  }
+  
+  .side {
+    
+   background-color:hsl(0, 0%, 56%);
+   width:420px;
+   height:300px;
+   text-align:center;
+  } 
+  .side h1 {
+    padding-left: 1%;
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .side p {
+    margin-top: 20px;
+  }
+  
+  .articleno .content {
+   background-color:hsl(0, 0%, 56%);
+   width:380px;
+   height:300px;
+   text-align:center;
+   margin-left:1%;
+  }
+  .articleno .content h1 {
+    padding-left: 1%;
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  
+  .content p {
+    margin-top: 20px;
+  }
+  
+  .leftside p {
+    margin-top: 20px;
+  }
+  
+  article {
+    display:flex;
+    margin-left: 1%;
+  }
+  
+  .articleno .leftside {
+    background-color:hsl(0, 0%, 56%);
+    width:380px;
+    height:300px;
+    text-align:center;
+    margin-left: 1%;
+    
+   }
+  .leftside h1 {
+    padding-left: 1%;
+    font-size: 30px;
+    margin-top: 50px;
+   }
+  .articleno {
+    margin-left: 0%;
+    width: 100%;
+    margin-right: 80%;
+   }
+  .h11 {
+    margin-left: 3%;
+  }
+  .articleno {
+    margin-top: 2%;
+  }
+  .h11 {
+    padding-top: 3%;
+    padding-left: 20px;
+  }
+  iframe {
+    color: #fff;
+    padding-top: 2%;
+    padding-left: 2%;
+    overflow: hidden;
+    background-image: url(images/LostGearHART.png);
+    font-size: 30px;
+  }
+  
+  
+
+
+
+    
+.articleno .left2 {
+    background-color:hsl(0, 0%, 56%);
+    width:380px;
+    height:300px;
+    text-align:center;
+    margin-left: 1%;
+        
+}
+.left2 h1 {
+    padding-left: 1%;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+
+a {
+  font-family: sans-serif;
+  text-decoration: none;
+  }
+  .humberger {
+      display: block;
+      height: 60px;
+      margin-left: auto;
+      position: relative;
+      z-index: 10;
+      width: 60px;
+      border: none;
+      background-color: transparent;
+  }
+  .humberger.-active .humberger__line {
+      background-color: transparent;
+  }
+  .humberger.-active .humberger__line::before {
+      top: 0;
+      transform: rotate(45deg);
+  }
+  .humberger.-active .humberger__line::after {
+      top: 0;
+      transform: rotate(-45deg);
+  }
+  .humberger.-active .humberger__text::before {
+    content: '閉じる';
+  }
+  .humberger__line {
+      display: block;
+      height: 2px;
+      position: absolute;
+      top: 23px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 24px;
+      background-color: #ffffff;
+      transition: 0.4s;
+  }
+  .humberger__line:before,
+  .humberger__line:after {
+      content: "";
+      display: block;
+      height: 100%;
+      position: absolute;
+      width: 100%;
+      background-color: #ffffff;
+      transition: inherit;
+  }
+  .humberger__line:before {
+      top: -6px;
+  }
+  .humberger__line:after {
+      top: 6px;
+  }
+  .humberger__text {
+      position: absolute;
+      bottom: 8px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+  }
+  .humberger__text::before {
+      content: "メニュー";
+      text-align: center;
+      color: #172e59;
+      font-size: 10px;
+      font-weight: 900;
+  }
+  .header {
+    width: 300px;
+  }
+  .header__nav-area {
+      position: fixed;
+      top: 0;
+      left: -100%;
+      z-index: 9;
+      height: 100vh;
+      width: 3000px;
+      visibility: hidden;
+      padding-top: 60px;
+      background-color: #000000;
+      transition: 0.6s;
+  }
+  .header__nav-area.-active {
+      left: 0;
+    visibility: visible;
+  }
+  .global-navigation {
+      padding-top: 40px;
+      padding-right: 25px;
+      padding-bottom: 120px;
+      padding-left: 25px;
+  }
+  .global-navigation__list > li {
+      padding-bottom: 20px;
+      border-bottom: 2px solid #e7e9ee;
+  }
+  .global-navigation__list > li + li {
+    margin-top: 20px;
+  }
+  .global-navigation__link {
+    display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #172e59;
+      font-weight: 900;
+      transition: color 0.4s;
+      font-size: 0.875rem;
+  }
+  .global-navigation__link.-accordion {
+      position: relative;
+      background: none;
+      border: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      width: 100%;
+      padding: 0;
+  }
+  .global-navigation__link.-accordion::after {
+      content: '';
+      display: block;
+      height: 12px;
+      position: absolute;
+      top: 50%;
+      right: 5px;
+      width: 2px;
+      background-color: #ed3242;
+      transform: translateY(-50%);
+      transition: transform 0.4s;
+  }
+  .global-navigation__link.-accordion::before {
+      content: '';
+      display: block;
+      height: 2px;
+      position: absolute;
+      top: 10%;
+      right: 0;
+      width: 12px;
+      background-color: #ed3242;
+      transform: translateY(-50%);
+      
+  }
+  .global-navigation__link.-active::after {
+    transform: translateY(-50%) rotate(-90deg);
+  }
+  .accordion {
+      height: 0;
+      overflow: hidden;
+      visibility: hidden;
+      transition: 0.4s;
+  }
+  .accordion.-active {
+      height: auto;
+      padding-top: 30px;
+      visibility: visible;
+  }
+  .accordion__list li {
+      font-size: 0.75rem;
+  }
+  .accordion__list li + li {
+       margin-top: 21px;
+  }
+  .accordion__link {
+      color: #172e59;
+  }
+
+  /*スクロールバーの動く部分*/
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 50, .5);
+  border-radius: 10px;
+  box-shadow:0 0 0 1px rgba(255, 255, 255, .3);
+}
+
+
+
+
+header {
+  width: 100%;
+  height: 70px;
+  color: #1d1d1d;
+  background-color: #050505;
+  opacity: 0.8;
+  position: fixed;
+  top: 0;
+  transition: 0.5s;
+}
+
+footer {
+  width: 100%;
+  height: 70px;
+  color: #ffffff;
+  background-color: #383838;
+  position: fixed;
+  bottom: 0;
+  transition: 0.5s;
+}
+
+
+
+
+/* reset css*/
+h1, ul {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* wrapper */
+#wrapper {
+  width: 100%;
+  max-width: 480px;
+}
+
+/* header */
+#header {
+  background: rgb(57, 57, 77);
+}
+
+#header h1 {
+  padding: 8px;
+  text-align: center;
+  color: #fff;
+}
+
+/* nav */
+.nav {
+  overflow-x: auto;
+  background: fff;
+  border: 1px solid #ddd;
+}
+
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background-color: #ccc;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #17585d;
+}
+.nav ul {
+  display: flex;
+  padding: 12px;
+  width: 100%;
+}
+
+.nav ul > li {
+  white-space: nowrap;
+  padding: 0 8px;
+}
+
+.content p {
+  padding-top: 40px;
+}
